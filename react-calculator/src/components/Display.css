@@ -1,0 +1,15 @@
+.display {
+  grid-column: 1 / -1;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  font-size: 3rem;
+  font-family: monospace;
+  overflow: hidden;
+  text-align: right;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

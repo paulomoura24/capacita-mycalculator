@@ -1,0 +1,35 @@
+.button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  transition: background-color 0.2s ease-in-out;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+}
+
+.button:active {
+  background-color: #d0d0d0;
+}
+
+.button.operator {
+  background-color: #ff9500;
+  color: white;
+}
+
+.button.operator:hover {
+  background-color: #e68a00;
+}
+
+.button.double {
+  grid-column: span 2;
+}
